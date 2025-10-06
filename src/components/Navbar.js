@@ -6,18 +6,12 @@ export default function Navbar() {
   return (
     <nav className="navbar homepage-navbar navbar-expand-md sticky-top navbar-custom">
       <div className="container-fluid nav-container-custom">
-        {/* Use Link for the logo */}
         <Link
           className="navbar-brand navbar-brand-homepage navbar-brand-custom"
           to="/"
         >
           <div>
-            {/* If logo is in public/, use "/images/logo1.png" */}
-            <img
-              src="/images/logo1.png"
-              className="logo-img"
-              alt="Lilly Golden Editorial"
-            />
+            <img src={logo} className="logo-img" alt="Lilly Golden Editorial" />
           </div>
         </Link>
 

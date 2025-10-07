@@ -24,6 +24,7 @@ export default function Contact() {
       .send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY)
       .then(() => {
         console.log("email sent successfully");
+        alert("Thank you for your inquiry!");
         reset();
       })
       .catch((error) => {

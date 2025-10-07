@@ -1,8 +1,47 @@
-import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { NavLink, Link, useLocation } from "react-router-dom";
 import logo from "../images/logo1.png";
 
 export default function Navbar() {
+  const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    const navbar = document.querySelector(".homepage-navbar");
+    const hero = document.querySelector(".hero");
+
+    function handleScroll() {
+      if (!hero) return;
+
+      const heroBottom = hero.getBoundingClientRect().bottom;
+
+      if (heroBottom < 0) {
+        setScrolled(true);
+        navbar?.classList.add("scrolled");
+      } else {
+        setScrolled(false);
+        navbar?.classList.remove("scrolled");
+      }
+
+      const headers = document.querySelectorAll("h3.sticky-top-custom");
+      headers.forEach((header) => {
+        const rect = header.getBoundingClientRect();
+        if (rect.top <= 75) {
+          header.classList.add("is-sticky");
+        } else {
+          header.classList.remove("is-sticky");
+        }
+      });
+    }
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [location.pathname]);
+
   return (
     <nav className="navbar homepage-navbar navbar-expand-md sticky-top navbar-custom">
       <div className="container-fluid nav-container-custom">
@@ -10,9 +49,9 @@ export default function Navbar() {
           className="navbar-brand navbar-brand-homepage navbar-brand-custom"
           to="/"
         >
-          <div>
+          {scrolled && (
             <img src={logo} className="logo-img" alt="Lilly Golden Editorial" />
-          </div>
+          )}
         </Link>
 
         <button
@@ -75,7 +114,6 @@ export default function Navbar() {
             </li>
           </ul>
 
-          {/* Contact as a route */}
           <Link to="/contact" className="btn btn-outline-dark">
             Contact me
           </Link>

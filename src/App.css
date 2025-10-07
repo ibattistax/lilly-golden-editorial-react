@@ -185,13 +185,7 @@ hr {
   border-radius: 10px;
   padding: 10px;
 }
-/* .btn-outaine-dark {
-  background-color: var(--light-2);
-  border: solid 2px black;
-  padding: 7px;
-  border-radius: 4px;
-  box-shadow: var(--shadow);
-} */
+
 .btn-outline-dark a {
   font-family: var(--primary-font);
   color: #212529;
@@ -396,10 +390,6 @@ i:hover {
 }
 .btn-outline-dark-custom:hover a {
   color: white;
-}
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start {
-  transform: translateX(0);
 }
 
 /*media queries here*/

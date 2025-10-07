@@ -23,6 +23,7 @@ export default function Navbar() {
         navbar?.classList.remove("scrolled");
       }
 
+      // Sticky headers logic
       const headers = document.querySelectorAll("h3.sticky-top-custom");
       headers.forEach((header) => {
         const rect = header.getBoundingClientRect();
@@ -49,9 +50,11 @@ export default function Navbar() {
           className="navbar-brand navbar-brand-homepage navbar-brand-custom"
           to="/"
         >
-          {scrolled && (
-            <img src={logo} className="logo-img" alt="Lilly Golden Editorial" />
-          )}
+          <img
+            src={logo}
+            className={`logo-img transition-logo ${scrolled ? "visible" : ""}`}
+            alt="Lilly Golden Editorial"
+          />
         </Link>
 
         <button

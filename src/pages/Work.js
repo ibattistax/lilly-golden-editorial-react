@@ -4,7 +4,7 @@ import healingImg from "../images/non-fiction-books/healing-the-opressed-body.jp
 import serialImg from "../images/non-fiction-books/raised-by-a-serial-killer.jpg";
 import climateImg from "../images/non-fiction-books/surviving-climate-anxiety.jpg";
 import cultImg from "../images/non-fiction-books/manhattan-cult-story.jpg";
-import returnImg from "../images/non-fiction-books/return.png";
+import returnImg from "../images/non-fiction-books/return.jpg";
 import ghostsImg from "../images/fiction-books/comfort-of-ghosts.jpg";
 import whiteladyImg from "../images/fiction-books/white-lady.jpg";
 import feverImg from "../images/fiction-books/american-fever.jpg";

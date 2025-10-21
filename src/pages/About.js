@@ -31,8 +31,8 @@ export default function About() {
                 <em>New York Times</em> bestselling writers including Jacqueline
                 Winspear, F. Lee Bailey, Elizabeth Cobbs, Stephanie Storey, Tom
                 McGuane, Jay McInerney, and Joy Williams among hundreds of
-                others of all levels of experience, from seasoned professionals
-                to first time authors to nonwriters with a great story to tell.
+                others, from seasoned professionals to first time authors to
+                nonwriters with a great story to tell.
               </p>
               <p>
                 Recent projects include the true crime memoir

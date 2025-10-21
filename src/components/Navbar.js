@@ -11,7 +11,11 @@ export default function Navbar() {
     const hero = document.querySelector(".hero");
 
     function handleScroll() {
-      if (!hero) return;
+      if (!hero) {
+        setScrolled(true);
+        navbar?.classList.add("scrolled");
+        return;
+      }
 
       const heroBottom = hero.getBoundingClientRect().bottom;
 

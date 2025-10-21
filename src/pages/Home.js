@@ -5,7 +5,7 @@ import serialImg from "../images/non-fiction-books/raised-by-a-serial-killer.jpg
 import climateImg from "../images/non-fiction-books/surviving-climate-anxiety.jpg";
 import healingImg from "../images/non-fiction-books/healing-the-opressed-body.jpg";
 import cultImg from "../images/non-fiction-books/manhattan-cult-story.jpg";
-import returnImg from "../images/non-fiction-books/return.png";
+import returnImg from "../images/non-fiction-books/return.jpg";
 import ghostsImg from "../images/fiction-books/comfort-of-ghosts.jpg";
 import whiteladyImg from "../images/fiction-books/white-lady.jpg";
 import feverImg from "../images/fiction-books/american-fever.jpg";
@@ -22,7 +22,7 @@ export default function Home() {
               Featured Nonfiction
             </h3>
             <div className="nonfiction-features">
-              <div className="featured-book-5 inner-grid grid-2-columns">
+              <div className="inner-grid grid-2-columns">
                 <div className="featured-book-cover-container img-container">
                   <img
                     src={healingImg}
@@ -61,7 +61,7 @@ export default function Home() {
                 </div>
               </div>
               <hr />
-              <div className="featured-book-4 inner-grid grid-2-columns">
+              <div className="inner-grid grid-2-columns">
                 <div className="featured-book-cover-container img-container">
                   <img
                     src={climateImg}
@@ -99,7 +99,7 @@ export default function Home() {
                 </div>
               </div>
               <hr />
-              <div className="featured-book-1 inner-grid grid-2-columns">
+              <div className="inner-grid grid-2-columns">
                 <div className="featured-book-cover-container img-container">
                   <img
                     src={serialImg}
@@ -147,7 +147,7 @@ export default function Home() {
                 </div>
               </div>
               <hr />
-              <div className="featured-book-2 inner-grid grid-2-columns">
+              <div className="inner-grid grid-2-columns">
                 <div className="featured-book-cover-container img-container">
                   <img
                     src={cultImg}
@@ -187,7 +187,7 @@ export default function Home() {
                 </div>
               </div>
               <hr />
-              <div className="featured-book-3 inner-grid grid-2-columns">
+              <div className="inner-grid grid-2-columns">
                 <div className="featured-book-cover-container img-container">
                   <img
                     src={returnImg}
@@ -204,11 +204,11 @@ export default function Home() {
                   </div>
                   <br />
                   <div>
-                    Lynx Vilden, a groundbreaking eco-warrior, recounts her
-                    spiritual and physical quest to deeply connect with the
-                    earth, living in the wild using Stone Age technology,
-                    returning to ancient ways to live honestly in the natural
-                    world.
+                    Lynx Vilden, a groundbreaking wilderness survival expert,
+                    recounts her spiritual and physical quest to deeply connect
+                    with the earth, living in the wild using Stone Age
+                    technology, returning to ancient ways to live honestly in
+                    the natural world.
                   </div>
 
                   <br />
@@ -234,7 +234,7 @@ export default function Home() {
               Featured Fiction
             </h3>
             <div className="fiction-features">
-              <div className="featured-book-1 inner-grid grid-2-columns">
+              <div className="inner-grid grid-2-columns">
                 <div className="featured-book-cover-container img-container">
                   <img
                     src={ghostsImg}
@@ -278,7 +278,7 @@ export default function Home() {
                 </div>
               </div>
               <hr />
-              <div className="featured-book-2 inner-grid grid-2-columns">
+              <div className="inner-grid grid-2-columns">
                 <div className="featured-book-cover-container img-container">
                   <img
                     src={whiteladyImg}
@@ -315,7 +315,7 @@ export default function Home() {
                 </div>
               </div>
               <hr />
-              <div className="featured-book-3 inner-grid grid-2-columns">
+              <div className="inner-grid grid-2-columns">
                 <div className="featured-book-cover-container img-container">
                   <img
                     src={feverImg}
@@ -356,7 +356,7 @@ export default function Home() {
                 </div>
               </div>
               <hr />
-              <div className="featured-book-4 inner-grid grid-2-columns">
+              <div className="inner-grid grid-2-columns">
                 <div className="featured-book-cover-container img-container">
                   <img
                     src={oilmarbleImg}

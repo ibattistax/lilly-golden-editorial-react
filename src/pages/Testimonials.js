@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import healingImg from "../images/non-fiction-books/healing-the-opressed-body.jpg";
 import serialImg from "../images/non-fiction-books/raised-by-a-serial-killer.jpg";
 import ghostsImg from "../images/fiction-books/comfort-of-ghosts.jpg";
-import returnImg from "../images/non-fiction-books/return.png";
+import returnImg from "../images/non-fiction-books/return.jpg";
 import feverImg from "../images/fiction-books/american-fever.jpg";
 import laythisImg from "../images/fiction-books/lay-this-body-down.jpg";
 import hamiltonImg from "../images/fiction-books/hamilton-affair.jpg";

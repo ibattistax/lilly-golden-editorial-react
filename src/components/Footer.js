@@ -60,6 +60,7 @@ export default function Footer() {
           >
             GitHub
           </a>
+          .
         </em>
       </div>
     </footer>

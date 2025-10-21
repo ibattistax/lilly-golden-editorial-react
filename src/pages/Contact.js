@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import emailjs from "emailjs-com";
 import Footer from "../components/Footer";
@@ -8,6 +8,7 @@ const TEMPLATE_ID = "template_6ecsdws";
 const PUBLIC_KEY = "QXkjsi-A29jNLryLc";
 
 export default function Contact() {
+  const [sentAlert, setSentAlert] = useState("default");
   const { register, handleSubmit, reset } = useForm({
     defaultValues: { name: "", email: "", message: "" },
   });
@@ -24,7 +25,8 @@ export default function Contact() {
       .send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY)
       .then(() => {
         console.log("email sent successfully");
-        alert("Thank you for your inquiry!");
+        setSentAlert("sent");
+        setTimeout(() => setSentAlert("default"), 3000);
         reset();
       })
       .catch((error) => {
@@ -86,7 +88,7 @@ export default function Contact() {
               placeholder="Your message"
             ></textarea>
           </div>
-
+          <div>{sentAlert === "sent" ? "Email Sent!" : ""}</div>
           <button type="submit" className="btn w-100">
             Send Email
           </button>

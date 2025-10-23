@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink, Link, useLocation } from "react-router-dom";
 import footerLogo from "../images/logo1-white.png";
 
 export default function Footer() {
@@ -12,17 +13,46 @@ export default function Footer() {
             alt="Lilly Golden Editorial"
           />
           <ul>
-            <li>
-              <a href="index.html">Homepage</a>
+            <li className="nav-item nav-item-custom">
+              <NavLink
+                to="/"
+                end
+                className={({ isActive }) =>
+                  `nav-link${isActive ? " active" : ""}`
+                }
+              >
+                Homepage
+              </NavLink>
             </li>
             <li>
-              <a href="about.html">About Me</a>
+              <NavLink
+                to="/about"
+                className={({ isActive }) =>
+                  `nav-link${isActive ? " active" : ""}`
+                }
+              >
+                About
+              </NavLink>
             </li>
             <li>
-              <a href="testimonials.html">Testimonials</a>
+              <NavLink
+                to="/work"
+                className={({ isActive }) =>
+                  `nav-link${isActive ? " active" : ""}`
+                }
+              >
+                Work
+              </NavLink>
             </li>
             <li>
-              <a href="work.html">Previous Work</a>
+              <NavLink
+                to="/testimonials"
+                className={({ isActive }) =>
+                  `nav-link${isActive ? " active" : ""}`
+                }
+              >
+                Testimonials
+              </NavLink>
             </li>
           </ul>
         </div>

@@ -47,6 +47,16 @@ export default function Navbar() {
     };
   }, [location.pathname]);
 
+  useEffect(() => {
+    const navbarCollapse = document.querySelector(".navbar-collapse.show");
+    if (navbarCollapse) {
+      const bsCollapse = new window.bootstrap.Collapse(navbarCollapse, {
+        toggle: false,
+      });
+      bsCollapse.hide();
+    }
+  }, [location.pathname]);
+
   return (
     <nav className="navbar homepage-navbar navbar-expand-md sticky-top navbar-custom">
       <div className="container-fluid nav-container-custom">

@@ -79,7 +79,7 @@ export default function Testimonials() {
                 advice and wise professional counsel ... for respectfully
                 directing me to the places where I needed to wield the scalpel
                 with a steady hand or add more clay with care.” (In reference to
-                The White Lady) And “Lilly was
+                <em>The White Lady</em>) And “Lilly was
                 <span className="book-title">The Comfort of Ghosts</span> first
                 reader, demonstrating an ability to identify elements of the
                 story that remained clear in my mind’s eye but not in the novel.

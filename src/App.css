@@ -7,7 +7,6 @@
   --light-1: #e4e8f4;
   --light-2: rgb(123, 113, 87, 0.4);
   --light-3: #f2f4f3;
-  --img-colour-offset: 20px 20px #d4b68e;
   --shadow: rgba(149, 157, 165, 0.3) 1px 8px 24px;
 }
 body {
@@ -362,10 +361,9 @@ footer .column-1,
 }
 
 footer .creator-credits {
-  font-size: 12px;
+  font-size: 9px;
   font-family: var(--secondary-font);
-
-  opacity: 0.6;
+  opacity: 0.4;
   text-align: center;
 }
 

@@ -38,8 +38,8 @@ export default function Testimonials() {
               </div>
               <br />
               <div className="testimonial-byline">
-                —Andrea Gutiérrez-Glik (
-                <span className="book-title">Healing the Oppressed Body</span>)
+                —Andrea Gutiérrez-Glik, author of{" "}
+                <span className="book-title">Healing the Oppressed Body</span>
               </div>
             </div>
           </div>
@@ -58,10 +58,8 @@ export default function Testimonials() {
               <br />
               <div className="grid-2-columns-right-short-start-align">
                 <div className="testimonial-byline">
-                  —April Balascio
-                  <span className="book-title">
-                    (Raised by a Serial Killer)
-                  </span>
+                  —April Balascio, author of{" "}
+                  <span className="book-title">Raised by a Serial Killer</span>
                 </div>
               </div>
             </div>
@@ -106,9 +104,9 @@ export default function Testimonials() {
               </div>
               <br />
               <div className="testimonial-byline">
-                —Lynx Vilden
+                —Lynx Vilden, author of{" "}
                 <span className="book-title">
-                  (Return: A Journey Back to Living Wild)
+                  Return: A Journey Back to Living Wild
                 </span>
               </div>
             </div>
@@ -129,8 +127,8 @@ export default function Testimonials() {
               </div>
               <br />
               <div className="testimonial-byline">
-                —Dur e Aziz Amna
-                <span className="book-title">(American Fever)</span>
+                —Dur e Aziz Amna, author of{" "}
+                <span className="book-title">American Fever</span>
               </div>
             </div>
           </div>
@@ -146,10 +144,8 @@ export default function Testimonials() {
               </div>
               <br />
               <div className="testimonial-byline">
-                —Charles Fergus
-                <span className="book-title">
-                  (Gideon Stoltz Mystery series)
-                </span>
+                —Charles Fergus, author of{" "}
+                <span className="book-title">Gideon Stoltz Mystery </span>series
               </div>
             </div>
             <div className="testimonial-book-cover-img">
@@ -172,7 +168,7 @@ export default function Testimonials() {
               </div>
               <br />
               <div className="testimonial-byline">
-                —Elizabeth Cobbs, <em>New York Times</em> bestselling author of
+                —Elizabeth Cobbs, <em>New York Times</em> bestselling author of{" "}
                 <span className="book-title">
                   The Hamilton Affair and The Tubman Command
                 </span>
@@ -190,12 +186,11 @@ export default function Testimonials() {
               </div>
               <br />
               <div className="testimonial-byline">
-                —Spencer Schneider, (
+                —Spencer Schneider, author of{" "}
                 <span className="book-title">
                   Manhattan Cult Story: My Unbelievable True Story of Sex,
                   Crimes, Chaos, and Survival
                 </span>
-                )
               </div>
             </div>
             <div className="testimonial-book-cover-img">
@@ -215,12 +210,11 @@ export default function Testimonials() {
               </div>
               <br />
               <div className="testimonial-byline">
-                —Eve O. Schaub (
+                —Eve O. Schaub, author of{" "}
                 <span className="book-title">
                   Year of No Garbage: Recycling Lies, Plastic Problems, and One
                   Woman’s Trashy Journey to Zero Waste
                 </span>
-                )
               </div>
             </div>
           </div>

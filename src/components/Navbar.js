@@ -48,7 +48,9 @@ export default function Navbar() {
   }, [location.pathname]);
 
   useEffect(() => {
-    const navbarCollapse = document.querySelector(".navbar-collapse.show");
+    const navbarCollapse = document.querySelector(
+      ".navbar-collapse-custom.show"
+    );
     if (navbarCollapse) {
       const bsCollapse = new window.bootstrap.Collapse(navbarCollapse, {
         toggle: false,
@@ -58,7 +60,7 @@ export default function Navbar() {
   }, [location.pathname]);
 
   return (
-    <nav className="navbar homepage-navbar navbar-expand-md sticky-top navbar-custom">
+    <nav className="navbar homepage-navbar navbar-expand-md sticky-top sticky-top-nav-custom navbar-custom">
       <div className="container-fluid nav-container-custom">
         <Link
           className="navbar-brand navbar-brand-homepage navbar-brand-custom"
@@ -83,7 +85,10 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div
+          className="collapse navbar-collapse navbar-collapse-custom"
+          id="navbarTogglerDemo02"
+        >
           <ul className="navbar-nav mx-auto mb-2 mb-md-0 nav-underline">
             <li className="nav-item nav-item-custom">
               <NavLink

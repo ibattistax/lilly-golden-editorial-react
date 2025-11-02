@@ -378,12 +378,7 @@ i {
   border-radius: 50%;
   border: 1px solid white;
 }
-i:hover {
-  background-color: transparent;
-  border: 1px solid rgb(255, 255, 255, 0.8);
-  color: white;
-  transition: 100ms ease-in-out;
-}
+
 /* custom bootstrap element css */
 
 .navbar-custom {
@@ -391,6 +386,15 @@ i:hover {
   font-family: var(--primary-font);
   display: flex;
   justify-content: space-evenly;
+}
+.navbar.sticky-top-nav-custom {
+  position: sticky;
+  top: 0;
+  z-index: 1200;
+}
+.navbar-collapse-custom {
+  position: relative;
+  z-index: 1201;
 }
 
 /* Hover effects or similar */
@@ -401,6 +405,12 @@ i:hover {
 }
 .btn-outline-dark-custom:hover a {
   color: white;
+}
+i:hover {
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255, 0.8);
+  color: white;
+  transition: 100ms ease-in-out;
 }
 
 /*media queries here*/

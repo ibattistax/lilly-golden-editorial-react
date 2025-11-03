@@ -5,10 +5,10 @@ import serialImg from "../images/non-fiction-books/raised-by-a-serial-killer.jpg
 import ghostsImg from "../images/fiction-books/comfort-of-ghosts.jpg";
 import returnImg from "../images/non-fiction-books/return.jpg";
 import feverImg from "../images/fiction-books/american-fever.jpg";
-import laythisImg from "../images/fiction-books/lay-this-body-down.jpg";
+import layThisImg from "../images/fiction-books/lay-this-body-down.jpg";
 import hamiltonImg from "../images/fiction-books/hamilton-affair.jpg";
 import cultImg from "../images/non-fiction-books/manhattan-cult-story.jpg";
-import yearofImg from "../images/non-fiction-books/year-of-no-garbage.jpg";
+import yearOfImg from "../images/non-fiction-books/year-of-no-garbage.jpg";
 
 export default function Testimonials() {
   return (
@@ -144,12 +144,11 @@ export default function Testimonials() {
               </div>
               <br />
               <div className="testimonial-byline">
-                —Charles Fergus, author of{" "}
-                <span className="book-title">Gideon Stoltz Mystery </span>series
+                —Charles Fergus, author of the Gideon Stoltz Mystery series
               </div>
             </div>
             <div className="testimonial-book-cover-img">
-              <img src={laythisImg} alt="" />
+              <img src={layThisImg} alt="" />
             </div>
           </div>
           <div className="grid-2-columns-left-short testimonial-container">
@@ -199,7 +198,7 @@ export default function Testimonials() {
           </div>
           <div className="grid-2-columns-left-short testimonial-container">
             <div className="testimonial-book-cover-img">
-              <img src={yearofImg} alt="" />
+              <img src={yearOfImg} alt="" />
             </div>
             <div className="testimonial">
               <div>

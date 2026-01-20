@@ -18,7 +18,7 @@ export default function Testimonials() {
         <title>Testimonials | Lilly Golden Editoral</title>
       </Helmet>
       <main>
-        <h4 className="page-subtitle mb-4 text-center">Testimonials</h4>
+        <h1 className="page-subtitle mb-4 text-center">Testimonials</h1>
         <div className="container">
           <div className="grid-2-columns-left-short testimonial-container">
             <div className="testimonial-book-cover-img">

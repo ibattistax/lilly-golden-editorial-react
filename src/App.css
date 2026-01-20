@@ -93,6 +93,7 @@ body {
 }
 .content-container {
   margin: 20px;
+  text-align: center;
 }
 p,
 div {
@@ -420,7 +421,7 @@ i:hover {
     font-size: 35px;
   }
   .hero h2 {
-    font-size: 1 5px;
+    font-size: 15px;
   }
   .featured-book-cover-img {
     height: 80vw;

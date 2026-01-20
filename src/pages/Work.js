@@ -36,7 +36,9 @@ export default function Work() {
       </Helmet>
       <main>
         <div class="content-container">
-          <h3>Selected Nonfiction</h3>
+          <h1 className="d-none">Work</h1>
+          <h2>Selected Nonfiction</h2>
+          <br />
           <div class="grid-5-columns">
             <div class="grid-img">
               <img src={healingImg} class="img-fluid" alt="" />
@@ -73,7 +75,7 @@ export default function Work() {
             </div>
           </div>
           <br />
-          <h3>Selected Fiction</h3>
+          <h2>Selected Fiction</h2>
           <br />
           <div class="grid-5-columns">
             <div class="grid-img">

@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
+import Helmet from "react-helmet";
 import serialImg from "../images/non-fiction-books/raised-by-a-serial-killer.jpg";
 import climateImg from "../images/non-fiction-books/surviving-climate-anxiety.jpg";
 import healingImg from "../images/non-fiction-books/healing-the-opressed-body.jpg";
@@ -14,6 +15,11 @@ import oilmarbleImg from "../images/fiction-books/oil-and-marble.jpg";
 export default function Home() {
   return (
     <div className="Home">
+      <Helmet>
+        <title>
+          Lilly Golden Editorial | Book Editor, Writer, Collaborator
+        </title>
+      </Helmet>
       <Hero />
       <main>
         <div className="grid-2-columns outer-grid">

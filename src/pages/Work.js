@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
+import Helmet from "react-helmet";
 import healingImg from "../images/non-fiction-books/healing-the-opressed-body.jpg";
 import serialImg from "../images/non-fiction-books/raised-by-a-serial-killer.jpg";
 import climateImg from "../images/non-fiction-books/surviving-climate-anxiety.jpg";
@@ -30,6 +31,9 @@ import luckyImg from "../images/fiction-books/lucky-supreme.jpg";
 export default function Work() {
   return (
     <div className="Work">
+      <Helmet>
+        <title>Work | Lilly Golden Editorial</title>
+      </Helmet>
       <main>
         <div class="content-container">
           <h3>Selected Nonfiction</h3>

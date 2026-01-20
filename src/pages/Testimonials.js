@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
+import Helmet from "react-helmet";
 import healingImg from "../images/non-fiction-books/healing-the-opressed-body.jpg";
 import serialImg from "../images/non-fiction-books/raised-by-a-serial-killer.jpg";
 import ghostsImg from "../images/fiction-books/comfort-of-ghosts.jpg";
@@ -13,6 +14,9 @@ import yearOfImg from "../images/non-fiction-books/year-of-no-garbage.jpg";
 export default function Testimonials() {
   return (
     <div className="Testimonials">
+      <Helmet>
+        <title>Testimonials | Lilly Golden Editoral</title>
+      </Helmet>
       <main>
         <h4 className="page-subtitle mb-4 text-center">Testimonials</h4>
         <div className="container">

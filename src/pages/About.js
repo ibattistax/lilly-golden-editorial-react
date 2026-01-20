@@ -1,10 +1,14 @@
 import React from "react";
 import Footer from "../components/Footer";
+import Helmet from "react-helmet";
 import authorImg from "../images/lillygoldenauthor.jpg";
 
 export default function About() {
   return (
     <div className="About">
+      <Helmet>
+        <title>About | Lilly Golden Editorial</title>
+      </Helmet>
       <div>
         <header>
           <h1 className="page-subtitle text-center">About Me</h1>

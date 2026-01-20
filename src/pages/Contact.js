@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
+import Helmet from "react-helmet";
 import emailjs from "emailjs-com";
 import Footer from "../components/Footer";
 
@@ -35,7 +36,10 @@ export default function Contact() {
   };
 
   return (
-    <div>
+    <div className="Contact">
+      <Helmet>
+        <title>Contact | Lilly Golden Editorial</title>
+      </Helmet>
       <header>
         <h1 className="page-subtitle text-center">Contact Me</h1>
       </header>

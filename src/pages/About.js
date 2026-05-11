@@ -31,28 +31,28 @@ export default function About() {
               </p>
 
               <p>
-                I’ve had the privilege of working with
-                <em>New York Times</em> bestselling writers including Jacqueline
-                Winspear, F. Lee Bailey, Elizabeth Cobbs, Stephanie Storey, Tom
-                McGuane, Jay McInerney, and Joy Williams among hundreds of
-                others, from seasoned professionals to first time authors to
-                nonwriters with a great story to tell.
+                I’ve had the privilege of working with <em>New York Times</em>{" "}
+                bestselling writers including Jacqueline Winspear, F. Lee
+                Bailey, Elizabeth Cobbs, Stephanie Storey, Tom McGuane, Jay
+                McInerney, and Joy Williams among hundreds of others, from
+                seasoned professionals to first time authors to nonwriters with
+                a great story to tell.
               </p>
               <p>
-                Recent projects include the true crime memoir
+                Recent projects include the true crime memoir{" "}
                 <span className="bio-book-title">
                   Raised by a Serial Killer
-                </span>
-                (December 2024, S&S, Gallery), by April Balascio;
+                </span>{" "}
+                (December 2024, S&S, Gallery), by April Balascio;{" "}
                 <span className="bio-book-title">
                   Surviving Climate Anxiety: A Guide to Coping, Healing, and
                   Thriving
-                </span>
-                (October 2025, Little, Brown Spark), by Dr. Thomas Doherty, and
+                </span>{" "}
+                (October 2025, Little, Brown Spark), by Dr. Thomas Doherty, and{" "}
                 <span className="bio-book-title">
                   Healing the Oppressed Body: A Therapeutic Guide for Radical
                   Self- Liberation
-                </span>
+                </span>{" "}
                 (March 2026, Penguin Life), by Andrea Gutiérrez-Glik.
               </p>
             </div>

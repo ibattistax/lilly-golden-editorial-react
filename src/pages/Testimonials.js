@@ -30,7 +30,7 @@ export default function Testimonials() {
                 project. My fears and doubts were resolved the moment I met
                 Lilly. Lilly brings a warmth, understanding, and knowing to her
                 editing work. The moment she began working on my project I felt
-                deeping known and seen, and that showed up in her ability to
+                deeply known and seen, and that showed up in her ability to
                 bring my voice and personality to the editing work. She
                 immediately got me and got the project. Her editing took my
                 project from rough, rough draft to acceptance from my publisher
